@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Pollos</title>
+    <link rel="stylesheet" href='styles.css'>
+    <script src="https://kit.fontawesome.com/26330db08c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <a href="#hourslocations">
+            <h1 class="nav-item">HOURS/LOCATIONS</h1>
+        </a>
+        <a href="#orderonline">
+            <h1 class="nav-item">ORDER ONLINE</h1>
+        </a>
+    </nav>
+    <br>
+    <br>
+    <div id="hourslocations">
+        <div class="header-container">
+            <h1>LOS POLLOS</h1>
+            <h2>CRUNCHY AND DELICIOUS CHICKEN SERVED 10-10 EVERY DAY</h2>
+        </div>
+        <div class="address-container">
+            <div class="address">
+                <p>27 CENTRAL AVENUE</p>
+                <p>S.E. ALBUQUERQUE</p>
+                <p>NM 87123</p>
+            </div>
+            <div class="address">
+                <p>27 WALTER AVENUE</p>
+                <p>S.E. ALBUQUERQUE</p>
+                <p>NM 87123</p>
+            </div>
+            <div class="address">
+                <p>14 WHITE STREET</p>
+                <p>S.E. ALBUQUERQUE</p>
+                <p>NM 87123</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </div>
+    <div id="orderonline">
+        <h1>ORDER ONLINE</h1>
+        <div class="item-container">
+            <div class="item">
+                <img src="items/3piece.jpg" class="item-image">
+                <h2>3 Piece Fried Chicken - 10</h2>
+                <div class="control-container">
+                    <img id="threeplus" class="control plus" src="plus.png">
+                    <img id="threeminus" class="control minus" src="minus.png">
+                </div>
+            </div>
+            <div class="item">
+                <img src="items/5piece.jpg" class="item-image">
+                <h2>5 Piece Fried Chicken - 12</h2>
+                <div class="control-container">
+                    <img id="fiveplus" class="control plus" src="plus.png">
+                    <img id="fiveminus" class="control minus" src="minus.png">
+                </div>
+            </div>
+            <div class="item">
+                <img src="items/25piece.jpg" class="item-image">
+                <h2>25 Piece Family Fried Chicken - 30</h2>
+                <div class="control-container">
+                    <img id="famplus" class="control plus" src="plus.png">
+                    <img id="famminus" class="control minus" src="minus.png">
+                </div>
+            </div>
+            <div class="item">
+                <img src="items/fries.jpg" class="item-image">
+                <h2>Fries - 5</h2>
+                <div class="control-container">
+                    <img id="fryplus" class="control plus" src="plus.png">
+                    <img id="fryminus" class="control minus" src="minus.png">
+                </div>
+            </div>
+            <div class="item">
+                <img src="items/onionrings.jpg" class="item-image">
+                <h2>Onion Rings - 7</h2>
+                <div class="control-container">
+                    <img id="onionplus" class="control plus" src="plus.png">
+                    <img id="onionminus" class="control minus" src="minus.png">
+                </div>
+            </div>
+            <div class="item">
+                <img src="items/macandcheese.jpg" class="item-image">
+                <h2>Mac & Cheese - 5</h2>
+                <div class="control-container">
+                    <img id="macplus" class="control plus" src="plus.png">
+                    <img id="macminus" class="control minus" src="minus.png">
+                </div>
+            </div>
+        </div>
+        <div id="orderonline-controls">
+            <select id="items" name="items">
+                <option value="Items">🛒</option>
+            </select>
+            <form action='/index.html'>
+                <label for="location">Pick Up Location</label>
+                <select style='font-family: rockwell;' id="location" name="location">
+                    <option value="27CENTRALAVENUE">27 CENTRAL AVENUE</option>
+                    <option value="27WALTERAVENUE">27 WALTER AVENUE</option>
+                    <option value="14WHITESTREET">14 WHITE STREET</option>
+                </select>
+                <p class="price">$0.00</p>
+                <input type="submit" value="PLACE ORDER">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,258 @@
+@font-face {
+    font-family: rockwell;
+    src: url(ROCK.TTF);
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #CC8E00;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+.address {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.address p {
+    margin: 0;
+    padding: 0;
+    padding-top: 2.5%;
+    font-size: 3.5vmin;
+    font-weight: 100;
+}
+
+.address-container {
+    margin-top: 7.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.control {
+    max-width: 35px;
+    max-height: 35px;
+    margin-right: 3%;
+}
+
+.control-container {
+    margin-top: 5%;
+    margin-bottom: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.header-container h1 {
+    padding-top: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 18vmin;
+    font-weight: 300;
+}
+
+.header-container h2 {
+    font-size: 5vmin;
+    font-weight: 300;
+}
+
+.item {
+    border: 1px solid black;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    border-radius: 5%;
+    padding: 0;
+}
+
+.item h2 {
+    color: black;
+    text-align: center;
+    font-size: 2.75vmin;
+    margin: 0;
+    padding: 0;
+}
+
+.item-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
+.item-image {
+    border: 0.5px solid black;
+    object-fit: cover;
+    height: 300px;
+    width: 400px;
+    border-radius: 5%;
+    margin: 0;
+    padding: 0;
+}
+
+.items-label {
+    margin-top: 1%;
+    margin-left: 5%;
+    padding-left: 5%;
+    margin-right: -12%;
+    padding-right: -12%;
+    font-size: 3.5vmin;
+}
+
+.nav-item {
+    font-family: rockwell;
+    font-weight: 200;
+    color: white;
+    font-size: 5.5vmin;
+    padding: 3%;
+    margin: 0;
+    white-space: nowrap;
+}
+
+#hourslocations {
+    background-image: url('chicken.jpg');
+    width: 100%;
+    font-family: rockwell;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#items {
+    font-family: 'FontAwesome'; 
+    height: 6vmin;
+    width: 7vmin;
+}
+
+#orderonline {
+    background-color: white;
+    width: 100%;
+    font-family: rockwell;
+}
+
+#orderonline h1 {
+    color: black;
+    font-size: 8vmin;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#orderonline-controls {
+    margin-top: 2%;
+    width: 100%;
+    border: 2px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#orderonline-controls form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    margin-right: 2%;
+}
+
+#orderonline-controls form > label {
+    margin-right: -5%;
+    padding-right: -5%;
+    font-size: 3vmin;
+}
+
+#orderonline-controls input[type=submit] {
+    font-family: rockwell;
+    font-size: 4vmin;
+    color: white;
+    background-color: rgb(87, 87, 87);
+    margin: 1%;
+    border: 0px;
+}
+
+#orderonline-controls p {
+    color: black;
+    font-size: 5vmin;
+    margin: 0;
+    padding: 0;
+}
+
+#orderonline-controls select {
+    font-size: 4vmin;
+    color: rgb(0, 0, 0);
+    margin: 1%;
+    border: 1px solid black;
+}
